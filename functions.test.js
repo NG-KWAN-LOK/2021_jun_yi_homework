@@ -1,5 +1,5 @@
 const { q1a, q1b } = require("./q1");
-const q2 = require("./q2");
+const { q2 } = require("./q2");
 test("Q1(A): junyiacademy == ymedacaiynuj", () => {
   expect(q1a("junyiacademy")).toBe("ymedacaiynuj");
 });
